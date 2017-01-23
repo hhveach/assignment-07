@@ -1,0 +1,32 @@
+
+@import './nav-bar-sm.scss';
+@import './images.scss';
+@import './media-queries.scss';
+@import './nav-bar-big.scss';
+
+* {
+  box-sizing: border-box;
+  font-family: "Hind", "Futura", sans-serif;
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+
+body {
+  margin: 0;
+}
+
+.column-container {
+  font-size: 0;
+  > * {
+    font-size: medium;
+    display: inline-block;
+    vertical-align: top;
+  }
+}
+
+.by-big:hover {
+  background-color: #364048;
+}

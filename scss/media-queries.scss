@@ -1,0 +1,40 @@
+@media screen and (min-width: 0px){
+
+  #app-container {padding-top: 70px;}
+
+  .main-content {
+    width: 95%;
+    margin: 30px auto;
+  }
+
+  .nav-bar-big {display: none;}
+
+  .drop-nav-bar-big {display: none;}
+}
+
+@media screen and (min-width: 768px){
+
+  #app-container {padding-top: 58px;}
+
+  .main-content {
+    width: 85%;
+    margin: 60px 0;
+    padding-left: 20px;
+    position: absolute;
+    right: 0;
+  }
+
+  .nav-bar-sm {display: none;}
+
+  .drop-nav-bar-sm {display: none;}
+
+  .nav-bar-big {display: block;}
+
+  .drop-nav-bar-big {display: block;}
+
+  .image-container {
+    width: 49%;
+    margin: .5px;
+  }
+
+}
