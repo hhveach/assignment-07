@@ -58,7 +58,12 @@
 .image-container {
   width: 100%;
   margin: 5px 0;
-  position: relative; }
+  position: relative;
+  overflow: hidden;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6); }
+
+.image-container img {
+  height: 325px; }
 
 .absolute-head {
   max-width: 100%;
@@ -79,6 +84,9 @@
   top: 50%;
   left: 50%;
   transform: translateX(-50%) translateY(-50%); }
+
+.absolute-main-text img {
+  height: auto; }
 
 .absolute-main-text h1 {
   margin: 0; }
